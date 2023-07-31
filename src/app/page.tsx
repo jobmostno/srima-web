@@ -1,6 +1,5 @@
 "use client";
 import {
-    Chart as ChartJS,
     BarElement,
     CategoryScale,
     Legend,
@@ -10,6 +9,7 @@ import {
     Tooltip,
     InteractionItem
 } from "chart.js";
+import {Chart as ChartJS} from "chart.js/auto";
 import {faker} from "@faker-js/faker";
 import {Chart, getDatasetAtEvent, getElementAtEvent, getElementsAtEvent} from "react-chartjs-2";
 import {useRef} from "react";
